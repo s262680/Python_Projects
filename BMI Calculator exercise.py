@@ -19,7 +19,7 @@ def bmiCalculator():
         elif bmi>=25 and bmi<=29.9:
             print("Your BMI is "+f"{bmi:.2f}"+" and you are overweight.")
         elif bmi>=30 and bmi<=100:
-            print("Your BMI is "+f"{bmi:.2f}"+" and you are obese!")
+            print("Your BMI is "+f"{bmi:.2f}"+" and you are obese.")
         else:
             print("Please check that you have entered the correct information.")           
     else:
