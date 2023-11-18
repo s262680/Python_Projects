@@ -3,10 +3,13 @@
 
 
 # import os and shutil modules to allow interact with the operating system and perform actions such as move, copy and delete files
-import os, shutil
+import os, shutil 
 
 # create a function which takes the file path containing the files need to be sorted as a parameter
-def autoFileSorter(filePath):
+def autoFileSorter(filePath):    
+
+    # add a forward slash at the end of the path
+    filePath+="/"
 
     # check whether the path exists
     if os.path.exists(filePath):
@@ -48,7 +51,8 @@ def autoFileSorter(filePath):
 
 # call the autoFileSorter function
 # enter the file path containing the files need to be sorted as an argument for this function
-# change the backslash in the file path to \\ or / to escape the backslash and add an extra \\ or / at the end of the path
-autoFileSorter("C:/Users/baby_/Desktop/Projects/Python Projects/Automatic File Sorter in File Explorer - Files for sorting/")
-autoFileSorter("C:\\Users\\baby_\\Desktop\\test\\")
-autoFileSorter("C:\\Users\\baby_\\Desktop\\notExistPath\\")
+# add r before the path or change the backslash to \\ or / to escape the backslash
+autoFileSorter(r"C:\Users\baby_\Desktop\Projects\Python Projects\Automatic File Sorter in File Explorer - Files for sorting")
+autoFileSorter("C:/Users/baby_/Desktop/test")
+autoFileSorter(r"C:\Users\baby_\Desktop\notExistPath")
+
