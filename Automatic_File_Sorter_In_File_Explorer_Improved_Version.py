@@ -52,7 +52,7 @@ def autoFileSorter(filePath):
 # call the autoFileSorter function
 # enter the file path containing the files need to be sorted as an argument for this function
 # add r before the path or change the backslash to \\ or / to escape the backslash
-autoFileSorter(r"C:\Users\baby_\Desktop\Projects\Python_Projects\Automatic_File_Sorter_in_File_Explorer_Files_for_sorting")
+autoFileSorter(r"C:\Users\baby_\Desktop\Projects\Python_Projects\Automatic_File_Sorter_In_File_Explorer_Files_For_Sorting")
 autoFileSorter("C:/Users/baby_/Desktop/test")
 autoFileSorter(r"C:\Users\baby_\Desktop\Not_Exist_Path")
 
