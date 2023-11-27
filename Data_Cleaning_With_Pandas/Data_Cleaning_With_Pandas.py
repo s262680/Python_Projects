@@ -2,7 +2,7 @@
 
 import pandas
 
-df=pandas.read_csv(r"C:\Users\baby_\Desktop\Projects\Python Projects\Pandas data cleansing exercises data\Original Customer Call List.csv")
+df=pandas.read_csv(r"C:\Users\baby_\Desktop\Projects\Python_Projects\Pandas_Data_Cleaned_And_Original_Data\Original_Customer_Call_List.csv")
 
 print(df)
 
@@ -63,4 +63,4 @@ cleanedDf=cleanedDf.reset_index(drop=True)
 print(cleanedDf)
 print(len(cleanedDf))
 
-cleanedDf.to_csv(r"C:\Users\baby_\Desktop\Projects\Python_Projects\Pandas_Data_Cleansed_And_Original_Data\Cleansed_Customer_Call_List.csv")
+cleanedDf.to_csv(r"C:\Users\baby_\Desktop\Projects\Python_Projects\Pandas_Data_Cleaned_And_Original_Data\Cleaned_Customer_Call_List.csv")
